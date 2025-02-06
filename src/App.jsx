@@ -5,6 +5,10 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Latest from "./pages/Latest";
 import Profile from "./pages/Profile";
+import LanguageSelection from "./pages/LanguageSelection";
+import Login from "./pages/Login";
+import OTPVerification from "./pages/OTPVerification";
+import DetailsForm from "./pages/DetailsForm";
 
 
 
@@ -19,7 +23,12 @@ function App() {
         </nav>
         
         <Routes>
-          <Route path="/" element={<Home />} />
+          
+          <Route path="/" element={<LanguageSelection />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/otp" element={<OTPVerification />} />
+          <Route path="/detailsentry" element={<DetailsForm/>} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/latest" element={<Latest />} />
