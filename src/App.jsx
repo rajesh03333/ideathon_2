@@ -29,7 +29,7 @@ function Footer() {
       </Link>
       <Link to="/about" className="flex flex-col items-center">
         <span>🌱</span>
-        <span>About</span>
+        <span>Crop Recommandation</span>
       </Link>
       <Link to="/services" className="flex flex-col items-center">
         <span>⚒️</span>
