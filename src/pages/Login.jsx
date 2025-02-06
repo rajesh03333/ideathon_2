@@ -14,22 +14,22 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 w-full">
+      <div className="bg-white p-8 rounded-lg shadow-lg text-center w-[500px] flex flex-col justify-center items-center">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <img
-          src="/images/farmer.png"
+          src="https://img.freepik.com/premium-vector/farmer-logo-template-design-vector-emblem-design-concept-creative-symbol-icon_316488-979.jpg?w=826"
           alt="Farmer Icon"
           className="w-24 h-24 mx-auto mb-4"
         />
-        <p className="mb-2">Enter your mobile number</p>
+        <p className="mb-2 font-semibold">Enter your mobile number</p>
         <p className="text-sm text-gray-600 mb-4">We will be sending you a 4-digit OTP</p>
         <input
           type="text"
           value={mobileNumber}
           onChange={(e) => setMobileNumber(e.target.value)}
           placeholder="Enter your mobile number"
-          className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4"
+          className="w-[300px]  px-4 py-2 border border-gray-300 rounded-md mb-4"
         />
         <button
           onClick={handleGetOTP}

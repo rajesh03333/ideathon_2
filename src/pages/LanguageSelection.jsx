@@ -24,7 +24,7 @@ const LanguageSelection = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 w-full">
       <h1 className="text-2xl font-bold mb-6">Select the language you want to continue with</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {languages.map((language) => (

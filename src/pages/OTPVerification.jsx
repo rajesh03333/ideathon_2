@@ -14,8 +14,8 @@ const OTPVerification = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="w-80 bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 w-full ">
+      <div className="w-100 bg-white p-6 rounded-lg shadow-lg text-center h-80 mb-10 flex flex-col justify-center items-center">
         <h1 className="text-2xl font-bold mb-4">Enter OTP</h1>
         <input
           type="text"

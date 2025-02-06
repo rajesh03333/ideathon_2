@@ -22,8 +22,8 @@ const DetailsForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 w-full ">
+      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg mb-20 flex flex-col">
         <h1 className="text-2xl font-bold mb-6 text-center">Enter your details</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -71,7 +71,7 @@ const DetailsForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
+            className="w-[100px] ml-[39%] bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
           >
             Submit
           </button>

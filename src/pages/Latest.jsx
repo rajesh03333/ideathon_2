@@ -5,13 +5,86 @@ const Latest = () => {
     <div className="flex flex-col items-center justify-start h-screen bg-gray-100 w-full">
       {/* Header */}
       <div className="w-full bg-gray-300 py-4 px-6 flex items-center justify-between">
-        <div className="flex-grow mx-4 text-center text-xl font-bold">Latest News</div>
+        <div className="flex-grow mx-4 text-center text-xl font-bold">
+          Latest News
+        </div>
       </div>
 
       {/* Content */}
       <div className="flex-grow w-full p-6">
         <div className="bg-gray-200 h-full w-full rounded-lg shadow-md">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, accusantium soluta architecto itaque laboriosam ex atque, sint voluptatum vel, blanditiis corrupti similique omnis voluptatem officiis et aspernatur sunt. Minima repellat vitae suscipit in tempora aspernatur quam voluptatibus! Molestias expedita saepe architecto ea numquam hic qui veniam laboriosam dolorum minima. Similique molestias id vitae eum asperiores incidunt eos animi facere architecto quod voluptatum aspernatur aliquid, adipisci inventore tempora totam qui officiis molestiae earum corrupti, odio error atque! At ullam autem eos molestiae fugiat corporis saepe vero accusantium reiciendis modi. Repellat cupiditate commodi voluptatibus, perspiciatis temporibus natus repudiandae consequatur qui earum dolores neque eligendi aliquam quibusdam eaque. Sequi, aliquid, totam inventore magnam cupiditate maxime natus nemo ut fuga, ipsa eligendi alias quam deleniti numquam ex libero assumenda consequuntur quis ullam architecto blanditiis! Ipsam aliquid quas aspernatur deleniti! Nisi fugiat labore dolorum neque veniam voluptatum placeat reprehenderit dolore temporibus non, repudiandae hic fuga molestias, at perferendis asperiores iste? Vel sunt voluptatem repellat dicta eos facere velit maxime nam saepe hic optio est vero alias consequatur, rem, id ab dolorum culpa facilis modi enim nemo. Ratione nulla deserunt minima ab ex officiis aperiam cum inventore esse, non repellendus amet repudiandae nostrum unde ea dolor quis vel doloremque tenetur dolorum voluptatibus corporis. Aliquid molestias sint distinctio magni quos placeat quibusdam ad reiciendis debitis quam dolores ab quia eum nisi, et veniam eaque facilis eius cum porro dicta minus harum consectetur. Nesciunt accusantium atque praesentium ut nostrum doloribus adipisci, labore aspernatur harum, cumque, est consectetur porro at saepe exercitationem iste totam aliquid perferendis ullam tenetur debitis odit vitae? Velit aliquid itaque ex molestias et libero modi enim reiciendis. Vero cupiditate libero laborum ipsum corrupti dolorem molestiae exercitationem iure! Dolore repudiandae consequuntur repellendus officiis quibusdam necessitatibus dolores. Quibusdam dolores ullam magnam! Corrupti similique deleniti repudiandae unde, fuga aut sed at ducimus assumenda aspernatur reiciendis magnam explicabo sit harum, sint, dolore quia rerum tempora natus nisi sequi! Quis error ex labore debitis sapiente quidem, omnis totam nemo nostrum, molestias accusantium assumenda cupiditate ipsa, commodi dignissimos et delectus voluptatum quod quae maiores. Aliquam accusantium ex animi temporibus facilis rerum sequi dolores fuga in, laudantium nesciunt, esse qui optio ab et! Tempora quisquam sint quidem similique amet consequatur minus in harum omnis, architecto, recusandae nulla ut perspiciatis id quas ea reprehenderit eos, molestias mollitia numquam quae. Quos laboriosam eos itaque sint repellendus, ex necessitatibus pariatur asperiores. Placeat repudiandae eum vitae?</p>
+          <div>
+            <h2 className="text-center font-bold text-3xl  ">Latest Agricultural Updates</h2>
+            <ul className="mt-3 gap-2">
+              <li>
+                <strong>Resumption of Cattle and Bison Imports:</strong> The
+                USDA has resumed cattle and bison imports from Mexico under a
+                new protocol designed to prevent the spread of New World
+                Screwworm. This move is expected to stabilize livestock markets
+                while ensuring animal safety.
+              </li>
+              <li>
+                <strong>Disaster Food Assistance in California:</strong> The
+                USDA approved Disaster Supplemental Nutrition Assistance
+                (D-SNAP) for California residents affected by recent wildfires
+                and straight-line winds, providing essential food security in
+                times of crisis.
+              </li>
+              <li>
+                <strong>
+                  Increase in Foreign Agricultural Investments in Australia:
+                </strong>{" "}
+                Foreign investors, especially from the U.S., are expected to
+                increase purchases of Australian agricultural properties due to
+                rising global commodity prices, making Australia an attractive
+                investment destination.
+              </li>
+              <li>
+                <strong>Decline in U.S. Farm Income:</strong> American farmers
+                face financial challenges with a 4% drop in farm income in 2024
+                due to rising costs of seeds, fertilizers, and machinery. A
+                federal bailout package is expected to provide temporary relief.
+              </li>
+              <li>
+                <strong>Climate Change Threatens Scottish Agriculture:</strong>{" "}
+                Rising temperatures and erratic weather patterns are making
+                water-intensive crops like potatoes less viable in certain
+                regions of Scotland. Farmers are urged to adopt sustainable
+                practices to adapt to changing conditions.
+              </li>
+              <li>
+                <strong>New Bird Flu Strain in Dairy Cows:</strong> A new H5N1
+                bird flu strain has been detected in Nevada dairy cows, marking
+                the first instance of this genotype in cattle. This has raised
+                concerns about disease control measures in mixed farming
+                systems.
+              </li>
+              <li>
+                <strong>Spring Wheat Acreage at Risk:</strong> Market volatility
+                and declining profitability may lead to historic lows in spring
+                wheat planting across the U.S., impacting both domestic supply
+                and exports.
+              </li>
+              <li>
+                <strong>Aflatoxin Biocontrol in Pistachios:</strong> Innovative
+                biocontrol products are being used to reduce aflatoxin levels in
+                pistachios, ensuring crop safety and enhancing market
+                competitiveness in both domestic and international markets.
+              </li>
+              <li>
+                <strong>Expansion of Methane-Reducing Cattle Feed:</strong> CH4
+                Global, in partnership with Mitsubishi, is expanding its
+                production of methane-reducing cattle feed, a crucial step
+                towards lowering greenhouse gas emissions in livestock farming.
+              </li>
+              <li>
+                <strong>Tariff-Induced Market Volatility:</strong> Uncertainty
+                surrounding potential tariffs on agricultural goods has caused
+                market fluctuations, affecting crop pricing and farmer
+                decision-making for the upcoming planting season.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

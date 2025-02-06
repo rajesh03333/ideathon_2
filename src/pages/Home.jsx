@@ -21,13 +21,22 @@ const Home = () => {
           ></iframe>
           <div className="p-4 bg-gray-200 rounded-md w-1/2 h-[300px]">
             <h2 className="text-lg font-semibold">Latest News</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
-              nobis ipsum harum nesciunt consequatur consequuntur earum fuga
-              ullam? Iste ea, aliquid nemo dolor animi architecto aut
-              reprehenderit. Quas, earum. Consequuntur delectus soluta quaerat,
-              illo velit enim corporis autem repudiandae quisquam.
-            </p>
+            <ul>
+              <li>
+                <strong>Resumption of Cattle and Bison Imports:</strong> The
+                USDA has resumed cattle and bison imports from Mexico under a
+                new protocol designed to prevent the spread of New World
+                Screwworm. This move is expected to stabilize livestock markets
+                while ensuring animal safety.
+              </li>
+              <li>
+                <strong>Disaster Food Assistance in California:</strong> The
+                USDA approved Disaster Supplemental Nutrition Assistance
+                (D-SNAP) for California residents affected by recent wildfires
+                and straight-line winds, providing essential food security in
+                times of crisis.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -39,7 +48,6 @@ const Home = () => {
             <li>Advanced agriculture</li>
           </ul>
         </div>
-        
       </div>
     </div>
   );

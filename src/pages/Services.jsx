@@ -22,19 +22,33 @@ const Services = () => {
             <div>
               <select className="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none">
                 <option>Sort by</option>
-                <option>Option 1</option>
-                <option>Option 2</option>
+                <option>New Tech</option>
+                <option>Advnc Tool</option>
+                <option>Save Soil</option>
               </select>
             </div>
           </div>
 
           {/* Service Cards Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {[...Array(6)].map((_, index) => (
-              <div
-                key={index}
-                className="h-50 bg-blue-100 rounded-lg shadow-md"
-              ></div>
+            {[
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+              "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+            ].map((videoUrl, index) => (
+              <div key={index} className="rounded-lg shadow-md overflow-hidden">
+                <iframe
+                  className="w-full h-[200px]"
+                  src={videoUrl}
+                  title={`YouTube video ${index + 1}`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             ))}
           </div>
 
